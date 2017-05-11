@@ -1,3 +1,9 @@
+# DISCLAIMER
+Credits on this repo:
+https://github.com/mehikmat/hadoop-install.git (Fork)
+https://github.com/martinburger/bash-common-helpers (bash-common-helpers)
+https://gist.github.com/swanandM/2b31a9984cdb58af96ec417197350f32 (gist with instructions)
+
 CDH-5.0.1 [Apache Hadoop 2.3.0]
 =============================
 ####Prerequisites
@@ -5,15 +11,6 @@ CDH-5.0.1 [Apache Hadoop 2.3.0]
 - Supported JDK Versions: >= jdk-1.7.0_25_
 - Supported Internet Protocol: CDH requires IPv4. IPv6 is not supported.
 - SSH configuration:SSH should be configured
-
-####Installing CDH 5 YARN on a Single Linux Node in Pseudo-distributed Mode
-
-For development purpose, Apache Hadoop and CDH 5 components can be deployed
-on a single Linux node in pseudo-distributed mode.
-In pseudo-distributed mode, Hadoop processing is distributed over all of the
-cores/processors on a single machine. Hadoop writes all files to the
-Hadoop Distributed File System (HDFS), and all services and daemons communicate
-over local TCP sockets for inter-process communication.
 
 ###STEP-1
 ```
